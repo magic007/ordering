@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/order/order",
+    "pages/transaction/transaction",
+    "pages/balance/balance"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

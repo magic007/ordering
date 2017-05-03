@@ -1,0 +1,36 @@
+<form bindsubmit="settlement" class="takeOrder">
+    <view class="place"></view>
+    <view class="food-detail {{idx==detail.length?'nobd':''}} nomt" wx:for="{{detail}}" wx:for-index="idx" >
+        <text>{{item.name}}</text>
+        <view>
+            <text>￥</text>{{item.price}}<text>×{{item.num}}</text>
+        </view>
+    </view>
+    <view class="place"> </view>  
+    <view class="food-detail">
+        <text>餐桌号</text>
+        <view>
+            <input type="text" placeholder="输入您所在餐桌号" placeholder-style="color:#999;font-size:18px;" name="tableNum"/>
+        </view>
+    </view>
+    <view class="food-detail">
+        <text>就餐人数</text>
+        <view>
+            <input type="text" placeholder="方便商家给您带够餐具" placeholder-style="color:#999;font-size:18px;" name="peopleNum"/>
+        </view>
+    </view>
+    <view class="food-detail">
+        <text>备注</text>
+        <view>
+            <input type="text" placeholder="口味、偏好等" placeholder-style="color:#999;font-size:18px;" name="remarks"/>
+        </view>
+    </view>
+    <view class="takeBill" >
+        <view class="box-left">
+            金额：<text>￥{{sumMon}}</text>
+        </view>
+        <button class="box-right" formType="submit">
+        结算
+        </button>
+    </view>
+</form>

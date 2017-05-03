@@ -1,0 +1,16 @@
+page{background:#fff;}
+.takeOrder .place{height:5px;background:#ececec;width:100%;}
+.food-detail{overflow:hidden;margin-left:15px;border-bottom:1px solid #E1E1E1;height:50px;line-height:50px;padding-right:15px;}
+.food-detail>text{float:left;color:#3c3c3c;font-size:18px;}
+.food-detail>view{float:right;}
+.food-detail>view text{font-size:15px;color:#999;}
+.nobd{border:0 none;}
+.takeBill{height:50px;position:fixed;left:0;bottom:0;width:100%;border-top:1px solid #e6e6e6;}
+.takeBill .box-left{float:left;line-height:50px;padding-left:15px;}
+.takeBill .box-right{float:right;background:#FA4D22;font-size:18px;color:#fff;width:120px;border-radius:0;height:50px;}
+.takeBill .box-left text{color:#fa4b22;}
+.food-detail>view{margin-top:13px;}
+.food-detail>view input{text-align:right;}
+.food-detail input,.food-detail textarea{max-width:244px;}
+.nomt>view{margin-top:0;}
+.hidden{display:none!important;}

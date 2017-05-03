@@ -1,0 +1,6 @@
+.place{width:100%;height:5px;background:#ebebeb;}
+.tips image{width:50px;height:50px;margin:0 auto;display:block;margin-top:60px;}
+.tips>text{display:block;text-align:center;margin-top:11px;color:#3c3c3c;font-size:18px;}
+navigator{width:320px;height:50px;text-align:center;line-height:50px;margin:0 auto;display:block;border-radius:4px;}
+.continueBook{background:#FB4C22;color:#fff;border:1px solid #FB4C22;margin-top:50px;}
+.myOrder{border:1px solid #c8c8c8;margin-top:15px;}

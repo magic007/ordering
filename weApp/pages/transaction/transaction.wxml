@@ -1,0 +1,8 @@
+<view class="tips">
+    <view class="place"></view>
+    <image src="http://bmob-cdn-8770.b0.upaiyun.com/2017/03/01/c47f3f254037a640807dd5df5318ea44.png" mode="widthFix"></image>
+    <text>下单成功</text>
+    <text style="color:#787878;font-size:16px;">厨房已收到您的菜单，请耐心等待</text>
+</view>
+<navigator url="../order/order?currentTab=0" hover-class="navigator-hover" class="continueBook">继续点餐</navigator>
+<navigator url="../order/order?currentTab=1" hover-class="navigator-hover" class="myOrder">我的订单</navigator>
